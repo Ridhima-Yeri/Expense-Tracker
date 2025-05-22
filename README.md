@@ -12,3 +12,9 @@
 - React.js
 - JavaScript
 - HTML/CSS
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
