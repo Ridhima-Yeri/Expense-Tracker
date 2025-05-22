@@ -1,0 +1,106 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #acada7;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background: #d9cfcf;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4caf50;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.expense-form {
+  background: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #3f25cf;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #5abb5f;
+  color: rgb(87, 83, 83);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.filter-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+  background-color: #ddd;
+}
+
+.expense-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-item {
+  background-color: #dfe3de;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item strong {
+  color: #161516;
+}
+
+.expense-item span {
+  font-size: 14px;
+  color: #1d79bb;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .expense-form {
+    padding: 15px;
+  }
+}
